@@ -1,0 +1,31 @@
+h1, form {
+  text-align: center;
+  color: white;
+}
+
+#cityInput {
+  text-align: center;
+  font-size: 2rem;
+}
+
+button {
+  width: 50%;
+}
+
+.footer {
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+
+  #cityInput, button {
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .card {
+    height: 400px;
+    width: 520px;
+  }
+}
